@@ -11,6 +11,7 @@
 }
 
 .filter {
+  cursor: pointer;
   font-size: 1.4rem;
   margin: 0.3rem;
   text-transform: capitalize;
