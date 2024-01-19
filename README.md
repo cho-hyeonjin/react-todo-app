@@ -6,6 +6,7 @@
 ### React로 구현한 Todo list 앱✨ 
 React의 에센셜 컨셉을 사용한 개인 토이 프로젝트입니다.
 
+## 사용해보고 싶다면 [이 곳을 클릭](https://hyeonjin-todo-app.netlify.app/)해서 방문해주세요🙂
 
 
 ## 📋 구현 기능 리스트
