@@ -1,12 +1,17 @@
-import { useState } from "react";
+import styles from "./Header.module.css";
 
 export default function Header({ filters, filter, onFilterChange }) {
   return (
-    <header>
-      <ul>
-        {filters.map((filter, index) => (
+    <header className={styles.header}>
+      <ul className={styles.filters}>
+        {filters.map((el, index) => (
           <li key={index}>
-            <button onClick={() => onFilterChange(filter)}>{filter}</button>
+            <button
+              className={`${styles.filter} ${filter === el && styles.selected}`}
+              onClick={() => onFilterChange(el)}
+            >
+              {el}
+            </button>
           </li>
         ))}
       </ul>
