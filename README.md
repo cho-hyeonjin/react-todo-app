@@ -1,6 +1,12 @@
 # 현진's Todo App
 
-### React로 구현하는 Todo list 앱
+<img src="https://github.com/cho-hyeonjin/react-todo-app/assets/78816754/6b0a403d-a933-4470-926c-a41099081e88" width="60%" />
+
+
+### React로 구현한 Todo list 앱✨ 
+React의 에센셜 컨셉을 사용한 개인 토이 프로젝트입니다.
+
+
 
 ## 📋 구현 기능 리스트
 
