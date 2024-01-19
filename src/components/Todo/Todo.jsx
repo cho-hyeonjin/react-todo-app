@@ -11,19 +11,17 @@ export default function Todo({ todo, onUpdate, onDelete }) {
     onDelete(todo);
   };
   return (
-    <>
-      <li>
-        <input
-          type="checkbox"
-          id="checkbox"
-          checked={status === "completed"}
-          onChange={handleChange}
-        />
-        <label htmlFor="checkbox">{text}</label>
-        <button onClick={handleDelete}>
-          <FaRegTrashCan />
-        </button>
-      </li>
-    </>
+    <li>
+      <input
+        type="checkbox"
+        id="checkbox"
+        checked={status === "completed"}
+        onChange={handleChange}
+      />
+      <label htmlFor="checkbox">{text}</label>
+      <button onClick={handleDelete}>
+        <FaRegTrashCan />
+      </button>
+    </li>
   );
 }
